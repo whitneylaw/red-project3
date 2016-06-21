@@ -1,0 +1,67 @@
+.wine-logo {
+  width: 20%;
+  min-width: 100px;
+  padding-top: 2em;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+
+.horizontal-line {
+  color: rgba(105,105,105,1);
+  line-height: 1px;
+  background-color: grey;
+}
+
+.container-wine-title {
+  	padding: 0% 10%;
+}
+
+.wine {
+  width: 20%;
+  min-width: 200px;
+  padding-right: 3em;
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
+.wine:hover {
+  zoom: 200%;
+}
+
+.wine-listings-container {
+  display: flex;
+  padding-bottom: .5em;
+}
+
+.wine-name {
+  align-content: center;
+  font-size: 1.1em;
+  padding: 0;
+}
+
+.wine-bottle-name {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  align-items: center;
+  padding: 0;
+}
+
+.wine-specs-notes {
+  line-height: 140%;
+}
+
+.specs {
+  font-style: italic;
+  color: rgba(105,105,105,1);
+  font-size: .9em;
+}
+
+.wine-description {
+  padding-top: .8em;
+}
+
+.tasting-notes {
+  padding-bottom: 2em;
+}

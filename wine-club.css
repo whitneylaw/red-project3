@@ -1,0 +1,31 @@
+.wine-club-perks-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.wine-club-logo {
+  max-width:200px;
+  width:100%
+  height: auto;
+  padding-right: 3em;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  align-items: flex-start;
+}
+
+.wine-club-advantages {
+  text-align: left;
+  padding-top: 2em;
+}
+
+.wine-club-list {
+  list-style-type: square;
+  padding-left: 1em;
+  padding-bottom: 3em;
+  line-height: 25px;
+}
+
+.section-title {
+  padding-bottom: 1em;
+}

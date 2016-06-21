@@ -1,0 +1,92 @@
+.winery-form-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.ducks {
+  width: 300px;
+  border-radius: 1em;
+  margin-bottom: 2em;
+}
+
+.winery-hours {
+  max-width:300px;
+  width:100%
+  height: auto;
+  padding-right: 3em;
+  padding-bottom: 2em;
+  align-items: flex-start;
+  margin-right: 2.5em;
+  line-height: 1.2em;
+}
+
+.contact-form {
+  text-align: left;
+}
+
+h3 {
+  padding-bottom: 1em;
+}
+
+label {
+  text-transform: uppercase;
+  font-size: .7em;
+  color: grey;
+}
+
+input[type=text], [type=email]{
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid grey;
+  /*padding-bottom: 1em;*/
+  margin-bottom: 1.5em;
+  font-size: 1.4em;
+}
+
+input:focus {
+  border-bottom: 3px solid grey;
+}
+
+textarea {
+  width: 100%;
+  margin: 1em 0;
+  border-radius: 3px;
+  border-color: grey;
+}
+
+select {
+  width: 100%;
+  margin-top: 1em;
+  border: none;
+}
+
+#event-extra, #group-extra, #club-extra {
+  display: none;
+}
+
+input[type=submit] {
+  /*color: black;*/
+  font-size: .9em;
+  text-transform: uppercase;
+  padding: .7em;
+  border-radius: 3px;
+  /*background-color: white;*/
+  background-color: rgba(171,198,207,0.9);
+  /*border: 1px solid grey;*/
+  width: 100%;
+  border: none;
+  color: white;
+}
+
+input[type=submit]:hover {
+  background-color: rgba(171,198,207,0.5);
+  transition-duration: .8s;
+}
+
+/*.wine-club-list {
+  list-style-type: square;
+  padding-left: 1em;
+  padding-bottom: 3em;
+  line-height: 25px;
+}*/
